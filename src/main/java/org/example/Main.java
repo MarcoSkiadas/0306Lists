@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         // adding students
-        Student student1 = new Student("Peter","Pan",1);
-        Student student2 = new Student("Alfredo","Amsel",2);
-        Student student3 = new Student("Bob","Bäcker",3);
+        Student student1 = new Student("Peter","Pan","1");
+        Student student2 = new Student("Alfredo","Amsel","2");
+        Student student3 = new Student("Bob","Bäcker","3");
 
         // set a list with students
         List<Student> students = new ArrayList<>();
@@ -28,6 +28,10 @@ public class Main {
 
         hogwarts.schoolStudents();
 
+        hogwarts.findStudentById("1");
+        hogwarts.removeStudent("1");
+
+        hogwarts.schoolStudents();
 
 
 
