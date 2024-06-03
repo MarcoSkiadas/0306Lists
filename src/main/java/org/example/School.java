@@ -41,4 +41,13 @@ public class School {
 
         }
     }
+    public void findStudentCourse(String studentId) {
+        for (Student student : students) {
+            if (student.getStudentID().equals(studentId)) {
+
+                System.out.println("Student: "+student+" is participating in ");
+                System.out.println(student.showCourses());
+            }
+        }
+    }
 }

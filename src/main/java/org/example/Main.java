@@ -33,7 +33,22 @@ public class Main {
 
         hogwarts.schoolStudents();
 
+        Course course1 = new Course("Java","D","Shrimp");
+        Course course2 = new Course("Python","B","Banana");
 
+        student1.addCourse(course1);
+        student2.addCourse(course2);
+
+        hogwarts.findStudentCourse("2");
+
+        Sack sack = new Sack();
+
+        System.out.println(sack.size());
+        sack.add(2);
+        sack.add(3);
+        System.out.println(sack.size());
+        sack.remove(1);
+        System.out.println(sack.size());
 
 
     }
