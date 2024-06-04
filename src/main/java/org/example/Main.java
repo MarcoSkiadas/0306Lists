@@ -29,10 +29,10 @@ public class Main {
         hogwarts.schoolStudents();
 
         hogwarts.findStudentById("1");
-        hogwarts.removeStudent("1");
+        hogwarts.removeStudent(student1);
 
         hogwarts.schoolStudents();
-
+/*
         Course course1 = new Course("Java","D","Shrimp");
         Course course2 = new Course("Python","B","Banana");
 
@@ -49,7 +49,7 @@ public class Main {
         System.out.println(sack.size());
         sack.remove(1);
         System.out.println(sack.size());
-
+*/
 
     }
 }
